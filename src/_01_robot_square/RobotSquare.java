@@ -25,36 +25,10 @@ while(sides<4) {
 jackie.setRandomPenColor();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        //         2. Move your robot 200 pixels
 jackie.move(100);
-jackie.turn(29);
-}
-
-
-
-
-
-
-
-        //         4. Turn the robot 90 degrees to the right (90 degrees)
 jackie.turn(90);
-
-    }
+sides=sides+1;
+}}
 }
+
+
