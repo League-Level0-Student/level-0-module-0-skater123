@@ -6,17 +6,16 @@ public class RobotGraffeti {
 public static void main(String[] args) {
 	Robot Mendoza= new Robot();
 
-	
+	Mendoza.setSpeed(20);
 	Mendoza.penDown();
 	Mendoza.miniaturize();
 	Mendoza.turn(45);
-Mendoza.move(24);
-	Mendoza.move(45);
-	Mendoza.turn(90);
-	Mendoza.turn(45);
-	Mendoza.turn(90);
-	Mendoza.turn(45);
-}
+Mendoza.move(69);
 
-
-}
+Mendoza.turn(90);
+	Mendoza.move(69);
+Mendoza.turn(90);
+Mendoza.move(45);
+Mendoza.turn(90);
+Mendoza.move(40);
+}}
