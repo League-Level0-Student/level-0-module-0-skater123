@@ -14,8 +14,9 @@ Mendoza.move(69);
 
 Mendoza.turn(90);
 	Mendoza.move(69);
-Mendoza.turn(90);
-Mendoza.move(45);
-Mendoza.turn(90);
+Mendoza.turn(180);
 Mendoza.move(40);
+Mendoza.turn(-60);
+Mendoza.move(45);
+Mendoza.sparkle();
 }}
